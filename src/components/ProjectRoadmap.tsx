@@ -35,14 +35,19 @@ function ProjectRoadmap() {
       </div>
 
       <div className="flex justify-center border-black border-2 p-2 mb-10 rounded-full items-center shadow-md shadow-purp">
-        <h1 className="text-2xl md:text-4xl font-bold">Cryptofunk Tour Roadmap</h1>
+        <h1 className="text-2xl md:text-4xl font-bold">
+          Cryptofunk Tour Roadmap
+        </h1>
       </div>
 
       <ol className="relative border-l-2 border-gray-200 dark:border-gray-700">
         {phaseDetailsArray.map(({ description, releaseDate, isComplete }) => (
-          <PhaseBullet description={description} releaseDate={releaseDate} isComplete={isComplete}/>
+          <PhaseBullet
+            description={description}
+            releaseDate={releaseDate}
+            isComplete={isComplete}
+          />
         ))}
-
       </ol>
     </div>
   );
