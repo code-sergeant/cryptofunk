@@ -18,7 +18,8 @@ import Document, {
       return (
         <Html>
           <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"></link>
           </Head>
           <body>
             <Main />

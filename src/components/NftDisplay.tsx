@@ -1,52 +1,45 @@
-import React, { useState } from 'react'
-import Slider from './Slider/Slider'
+import React from 'react'
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 
 function NftDisplay() {
 
-    const [clicked, setIsClicked] = useState(false)
-
-
-    
 
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 bg-gray-600 py-20'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 bg-metal py-48'>
 
         <div> 
             <div className='flex flex-col items-center py-20 font-Exo'>
             
                 <div className='mb-2'>
-                    <h1 className='text-8xl text-white'>Traits</h1>
+                    <h1 className='text-8xl bg-clip-text bg-gradient-to-b from-cyanMan via-purp to-pinkHaze text-transparent'>Traits</h1>
                 </div>
 
-                <hr className='h-1 w-72 my-10 border border-purple-600 bg-purple-600' />
+                <hr className='h-1 w-72 my-10 border border-purp bg-purp' />
                 
-                <div className='text-gray-800'>
-                    <div className='flex bg-white w-60 h-12 pl-6 py-2 rounded-full mb-2'>
+                <div className='text-metal cursor-pointer'>
+                    <div className='flex justify-center bg-transparent border-cyanMan border-2 text-cyanMan w-60 h-12 py-1 rounded-full mb-2 hover:shadow-pinkHaze active:bg-pinkHaze shadow-lg '>
                         <h1 className='text-2xl'>Uncommon</h1> 
-                        <div onClick={() => setIsClicked(true)} className=' ml-4 mt-1 cursor-pointer h-5 w-5 bg-white rounded-full ring ring-purple-600'>
-                        </div>         
                                 
                     </div>
 
-                    <div className='flex w-60 h-12 bg-white pl-6 py-2 rounded-full mb-2'>
+                    <div className='flex justify-center w-60 h-12 bg-transparent border-cyanMan border-2 text-cyanMan py-1 rounded-full mb-2 hover:shadow-pinkHaze active:bg-pinkHaze shadow-lg'>
                             <h1 className='text-2xl'>Rare</h1> 
-                            <div onClick={() => setIsClicked(true)} className=' ml-4 mt-1 cursor-pointer h-5 w-5 bg-white rounded-full ring ring-purple-600'>
-                            </div>   
                         </div>
 
-                    <div className='flex w-60 h-12 bg-white pl-6 py-2 rounded-full mb-2'>
+                    <div className='flex justify-center w-60 h-12 bg-transparent border-cyanMan border-2 text-cyanMan py-1 rounded-full mb-2 hover:shadow-pinkHaze active:bg-pinkHaze shadow-lg'>
 
                         <h1 className='text-2xl'>Ultra Rare</h1> 
-                            <div onClick={() => setIsClicked(true)} className=' ml-4 mt-1 cursor-pointer h-5 w-5 bg-white rounded-full ring ring-purple-600'>
-                            </div> 
+                            
 
                     </div>
 
-                    <div className='flex w-60 h-12 bg-white pl-6 py-2 rounded-full mb-2'>
+                    <div className='flex justify-center w-60 h-12 bg-transparent border-cyanMan border-2 text-cyanMan py-1 rounded-full mb-2 hover:shadow-pinkHaze active:bg-pinkHaze shadow-lg'>
                     <h1 className='text-2xl'>Legendary</h1> 
-                        <div onClick={() => setIsClicked(true)} className=' ml-4 mt-1 cursor-pointer h-5 w-5 bg-white rounded-full ring ring-purple-600'>
-                        </div>   
                     </div>
             </div>
           
@@ -56,10 +49,36 @@ function NftDisplay() {
         </div>
 
 
-        <div className='flex items-center justify-center p-10'>
+        <div className='flex items-center justify-center'>
 
-                <Slider/>
-                  
+                
+                <Swiper
+                    // install Swiper modules
+                    modules={[Navigation]}
+                    slidesPerView={1}
+                    navigation
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                  >
+                    <SwiperSlide>
+
+                      <div className=''>
+                        <img src="https://nfts.wtf/wp-content/uploads/2021/07/2-cosmicpaws.io_-4a76513b8df576b9bf288eaf31f9eccd-1024x1024.jpeg" alt=""/>
+                      </div>
+                      
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className=''>
+                        <img src="https://blogs.airdropalert.com/wp-content/uploads/2021/10/Gutter-Rat-PFP-1024x1024.png" alt=""/>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                       <div className=''>
+                        <img src="https://cdn.dribbble.com/users/83671/screenshots/17013854/mr_noir_1_1.png" alt=""/>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
+                                
         </div>
 
       </div>  

@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -12,9 +14,20 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl':'5rem',
+      '8xl' : '6rem',
+      '9xl' : '8rem',
     },
     extend: {
+      fontFamily: {
+        sans:["Audiowide", ...defaultTheme.fontFamily.sans],
+        serif:['Montserrat'],
+      },
       colors: {
+        cyanMan:'#00F0FF',
+        purp:'#8672DA',
+        pinkHaze:'#FF00B8',
+        metal: '#151515',
         primary: {
           100: '#E6F6FE',
           200: '#C0EAFC',

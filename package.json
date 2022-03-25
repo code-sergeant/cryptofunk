@@ -14,12 +14,14 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "classnames": "^2.3.1",
     "next": "^12.0.9",
     "next-seo": "^4.29.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "swiper": "^8.0.7"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.9",
