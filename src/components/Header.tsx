@@ -7,7 +7,7 @@ import cfLogo from "../../assets/Vector.png";
 
 function Header() {
   return (
-    <header className="flex top-0 py-5 px-5 md:px-10 justify-between">
+    <header className="flex top-0 py-2 px-5 md:px-10 justify-between">
       <div className="flex relative">
         <Image src={cfLogo} width={55} height={74} />
       </div>

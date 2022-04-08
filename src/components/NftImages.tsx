@@ -8,12 +8,14 @@ import bg from "../../assets/heroReflection.png";
 
 function NftImages() {
   return (
-    <div>
-      <div className="md:hidden">
+    <div className='-mt-24 md:-mt-12 md:-mb-12'>
+      <div className="hidden">
         <Image src={bg} layout="responsive" objectFit="cover" />
+        
+        
       </div>
-
-      <div className="relative grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center place-items-center z-20 lg:pl-32 lg:pr-32">
+      
+      <div className="relative grid grid-cols-2 xl:grid-cols-4 justify-center place-items-center z-20 lg:pl-32 lg:pr-32">
         <Image src={benfranklin} />
 
         <Image src={wolfdj} />
@@ -22,6 +24,8 @@ function NftImages() {
 
         <Image src={gorillatunes} />
       </div>
+
+      
     </div>
   );
 }
