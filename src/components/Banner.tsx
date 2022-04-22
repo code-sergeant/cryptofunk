@@ -5,7 +5,7 @@ import cfLogo from "../../assets/Vector.png";
 
 function Banner() {
   return (
-    <div className="relative pb-28">
+    <div className="relative pb-36">
       <Image
         src={hero}
         layout="fill"
@@ -36,10 +36,10 @@ function Banner() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto justify-center mt-10 gap-8 lg:px-0 z-10">
+        <div className="grid grid-cols-3 justify-center mt-10 gap-8 lg:px-14 z-10 px-10 md:container md:mx-auto">
           <button
             onClick={() => Router.push("https://solsea.io/")}
-            className="relative font-Audiowide bg-transparent border-4 text-md xl:text-xl border-cyanMan rounded-full text-cyanMan px-10 lg:px-5 py-4
+            className="col-span-3 lg:col-span-1 font-Audiowide bg-transparent border-4 text-md xl:text-xl border-cyanMan rounded-full text-cyanMan px-10 lg:px-8 py-4
                             shadow-lg shadow-metal hover:shadow-pinkHaze active:bg-pinkHaze  active:scale-90 transition duration-150"
           >
             BUY ON SOLSEA
@@ -47,14 +47,14 @@ function Banner() {
 
           <button
             onClick={() => Router.push("https://solsea.io/")}
-            className="relative font-Audiowide text-md xl:text-xl bg-cyanMan rounded-full text-metal px-10 lg:px-5 py-4 shadow-lg shadow-metal hover:shadow-pinkHaze active:bg-pinkHaze active:scale-90 transition duration-150"
+            className="col-span-3 lg:col-span-1 font-Audiowide text-md xl:text-xl bg-cyanMan rounded-full text-metal px-10 lg:px-8 py-4 shadow-lg shadow-metal hover:shadow-pinkHaze active:bg-pinkHaze active:scale-90 transition duration-150"
           >
             MINT YOUR OWN NFT
           </button>
 
           <button
             onClick={() => Router.push("https://magiceden.io/")}
-            className="relative font-Audiowide bg-transparent border-4 text-md md:text-xl border-cyanMan rounded-full text-cyanMan px-10 lg:px-5 py-4 shadow-lg shadow-metal hover:shadow-pinkHaze active:bg-pinkHaze  active:scale-90 transition duration-150"
+            className="col-span-3 lg:col-span-1 font-Audiowide bg-transparent border-4 text-sm lg:text-xl border-cyanMan rounded-full text-cyanMan px-10 lg:px-8 py-4 shadow-lg shadow-metal hover:shadow-pinkHaze active:bg-pinkHaze  active:scale-90 transition duration-150"
           >
             BUY ON MAGIC EDEN
           </button>

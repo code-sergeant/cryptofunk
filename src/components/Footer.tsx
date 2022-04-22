@@ -8,40 +8,40 @@ import github from "../../assets/github.png";
 function Footer() {
   return (
     <div>
-      <div className="text-center bg-clip-text bg-gradient-to-b from-cyanMan via-purp to-pinkHaze text-transparent pb-10">
-        <h1 className="text-3xl lg:text-6xl uppercase">
+      <div className="pt-3 text-center bg-clip-text bg-gradient-to-b from-cyanMan via-purp to-pinkHaze text-transparent pb-10">
+        <h1 className="text-3xl lg:text-5xl uppercase">
           Join the Cryptofunk Community!
         </h1>
       </div>
 
       <div className="flex gap-6 justify-center p-10">
         <Image
-          width={198}
-          height={198}
+          width={160}
+          height={160}
           src={wave}
           alt="Wave"
           objectFit="contain"
           className="cursor-pointer"
         />
         <Image
-          width={198}
-          height={198}
+          width={160}
+          height={160}
           src={discord}
           alt="Discord"
           objectFit="contain"
           className="cursor-pointer"
         />
         <Image
-          width={198}
-          height={198}
+          width={160}
+          height={160}
           src={github}
           alt="github"
           objectFit="contain"
           className="cursor-pointer"
         />
         <Image
-          width={198}
-          height={198}
+          width={160}
+          height={160}
           src={instagram}
           alt="Instagram"
           objectFit="contain"
