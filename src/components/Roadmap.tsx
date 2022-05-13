@@ -1,7 +1,4 @@
-import React from "react";
-import Image from "next/image";
-import bg from "../../assets/heroReflection.png";
-import Footer from "./Footer";
+import React from 'react';
 
 function Roadmap() {
   return (
@@ -39,30 +36,3 @@ function Roadmap() {
 }
 
 export default Roadmap;
-
-{
-  /* <ul>
-<li>NFT drop calendar listings</li>
-<li>Community Partnerships</li>
-<li>Promotions and Marketing</li>
-<li>Mint October 2022</li>
-<li>List on secondary markets</li>
-<li>Rarity Table Listing</li>
-<li>Asset Playground</li>
-</ul>
-
-<ul>
-                      <li>NFT drop calendar listings</li>
-                      <li>Community Partnerships</li>
-                      <li>Promotions and Marketing</li>
-                      <li>Mint October 2022</li>
-                      <li>List on secondary markets</li>
-                      <li>Rarity Table Listing</li>
-                      <li>Asset Playground</li>
-                    </ul>
-
-
-
-
-<p>Functionality to have 2 CryptoFunk DJ's <span className="text-cyanMan">Collaborate</span>, procedurally generating full-length NFT music based on their unique physical traits</p> */
-}

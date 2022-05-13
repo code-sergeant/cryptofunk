@@ -1,31 +1,34 @@
-import React from "react";
-import Image from "next/image";
-import benfranklin from "../../assets/benfranklin.png";
-import wolfdj from "../../assets/wolfdj.png";
-import spaceguy from "../../assets/spaceguy.png";
-import gorillatunes from "../../assets/gorillatunes.png";
-import bg from "../../assets/heroReflection.png";
+import React from 'react';
+
+import Image from 'next/image';
+
+import benfranklin from '../../assets/benfranklin.png';
+import gorillatunes from '../../assets/gorillatunes.png';
+import bg from '../../assets/heroReflection.png';
+import spaceguy from '../../assets/spaceguy.png';
+import wolfdj from '../../assets/wolfdj.png';
 
 function NftImages() {
   return (
-    <div className='-mt-24 md:-mt-12 md:-mb-12'>
+    <div className="-mt-24 md:-mt-12 md:-mb-12">
       <div className="hidden">
-        <Image src={bg} layout="responsive" objectFit="cover" />
-        
-        
+        <Image
+          alt="background image"
+          src={bg}
+          layout="responsive"
+          objectFit="cover"
+        />
       </div>
-      
+
       <div className="relative grid grid-cols-2 xl:grid-cols-4 justify-center place-items-center z-20 lg:pl-32 lg:pr-32">
-        <Image src={benfranklin} />
+        <Image alt="image 1" src={benfranklin} />
 
-        <Image src={wolfdj} />
+        <Image alt="image 2" src={wolfdj} />
 
-        <Image src={spaceguy} />
+        <Image alt="image 3" src={spaceguy} />
 
-        <Image src={gorillatunes} />
+        <Image alt="image 4" src={gorillatunes} />
       </div>
-
-      
     </div>
   );
 }

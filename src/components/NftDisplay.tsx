@@ -1,9 +1,10 @@
-import React from "react";
-import { Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react';
 
-import "swiper/css";
-import "swiper/css/navigation";
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 function NftDisplay() {
   return (
@@ -45,7 +46,7 @@ function NftDisplay() {
           slidesPerView={1}
           navigation
           onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
             <div className="">

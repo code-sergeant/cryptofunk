@@ -1,9 +1,11 @@
-import React from "react";
-import Image from "next/image";
-import wave from "../../assets/wave.png";
-import discord from "../../assets/discord.png";
-import instagram from "../../assets/instagram.png";
-import github from "../../assets/github.png";
+import React from 'react';
+
+import Image from 'next/image';
+
+import discord from '../../assets/discord.png';
+import github from '../../assets/github.png';
+import instagram from '../../assets/instagram.png';
+import wave from '../../assets/wave.png';
 
 function Footer() {
   return (
