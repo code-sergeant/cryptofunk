@@ -10,8 +10,8 @@ import wave from '../../assets/wave.png';
 function Footer() {
   return (
     <div>
-      <div className="pt-3 text-center bg-clip-text bg-gradient-to-b from-cyanMan via-purp to-pinkHaze text-transparent pb-10">
-        <h1 className="text-3xl lg:text-5xl uppercase">
+      <div className="pt-2 text-center pb-10">
+        <h1 className="bg-clip-text font-light font-Audiowide bg-gradient-to-b from-cyanMan via-purp to-pinkHaze text-transparent text-3xl lg:text-5xl uppercase">
           Join the Cryptofunk Community!
         </h1>
       </div>

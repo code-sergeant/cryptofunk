@@ -8,7 +8,7 @@ import bg from '../../assets/heroReflection.png';
 import spaceguy from '../../assets/spaceguy.png';
 import wolfdj from '../../assets/wolfdj.png';
 
-function NftImages() {
+const NftImages: React.FC = () => {
   return (
     <div className="-mt-24 md:-mt-12 md:-mb-12">
       <div className="hidden">
@@ -31,6 +31,6 @@ function NftImages() {
       </div>
     </div>
   );
-}
+};
 
 export default NftImages;
