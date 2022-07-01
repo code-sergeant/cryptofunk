@@ -19,7 +19,6 @@ function Roadmap() {
             </h1>
           </div>
         </div>
-
         <div className="col-span-2 md:col-span-1">
           <div className="grid text-white border-l-4 border-purp w-3/4 p-4 font-serif text-lg">
             <p>NFT drop calendar listings</p>
@@ -29,6 +28,41 @@ function Roadmap() {
             <p>List on secondary markets</p>
             <p>Rarity Table Listing</p>
             <p>Asset Playground</p>
+          </div>
+        </div>
+        <div className="grid justify-end items-center h-[100%]">
+          <h1 className="text-pinkHaze font-serif text-3xl">
+            Phase 2:{' '}
+            <span className="text-white font-serif text-3xl pr-4">Launch</span>
+          </h1>
+        </div>
+        <div className="col-span-2 md:col-span-1">
+          <div className="grid text-white border-l-4 border-purp w-3/4 p-4 font-serif text-lg">
+            <p>
+              Functionality to have 2 CryptoFunk DJs Collaborate, procedurally
+              generating full-length NFT music based on theur unique physical
+              traits.
+            </p>
+            <p>Community Partnerships</p>
+            <p>Promotions and Marketing</p>
+            <p>Mint October 2022</p>
+            <p>List on secondary markets</p>
+            <p>Rarity Table Listing</p>
+            <p>Asset Playground</p>
+          </div>
+        </div>
+        <div className="grid justify-end items-center h-[100%]">
+          <h1 className="text-pinkHaze font-serif text-3xl">
+            Phase 3:{' '}
+            <span className="text-white font-serif text-3xl pr-4">Launch</span>
+          </h1>
+        </div>
+        <div className="col-span-2 md:col-span-1">
+          <div className="grid text-white border-l-4 border-purp w-3/4 p-4 font-serif text-lg">
+            <p>
+              Expand NFT utility roadmap based on community holder governance.
+            </p>
+            <p>Explore collaboration with world Renowned DJs</p>
           </div>
         </div>
       </div>
