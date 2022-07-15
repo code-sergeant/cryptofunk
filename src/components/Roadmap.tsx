@@ -33,7 +33,9 @@ function Roadmap() {
         <div className="grid justify-end items-center h-[100%]">
           <h1 className="text-pinkHaze font-serif text-3xl">
             Phase 2:{' '}
-            <span className="text-white font-serif text-3xl pr-4">Launch</span>
+            <span className="text-white font-serif text-3xl pr-4">
+              Collaboration
+            </span>
           </h1>
         </div>
         <div className="col-span-2 md:col-span-1">
@@ -54,7 +56,7 @@ function Roadmap() {
         <div className="grid justify-end items-center h-[100%]">
           <h1 className="text-pinkHaze font-serif text-3xl">
             Phase 3:{' '}
-            <span className="text-white font-serif text-3xl pr-4">Launch</span>
+            <span className="text-white font-serif text-3xl pr-4">Future</span>
           </h1>
         </div>
         <div className="col-span-2 md:col-span-1">
